@@ -1,9 +1,5 @@
 # GPSF for Strip R-CNN
 
-> **Status: Under Construction / Manuscript in Preparation for Submission**
->
-> This repository hosts the official implementation of **GPSF** (*Geometry-Preserving Selective Fusion for Oriented Small Bridge Detection in Remote Sensing Images*). The paper is currently being prepared for submission, and this repository is still under active organization. Complete training/evaluation scripts, configuration files, and pretrained checkpoints will be released upon paper acceptance.
-
 GPSF replaces the standard FPN neck in Strip R-CNN with a bridge-oriented feature pyramid. It combines **GSSF** for geometry-conditioned feature propagation, **DAM** for direction-aware alignment during top-down fusion, and **RASA** for adaptive orientation processing of the deepest feature.
 
 ## Architecture
