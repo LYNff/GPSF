@@ -47,8 +47,5 @@ RASA is enabled by `use_arc=True`. In this implementation it uses an ARC adapter
 From the Strip R-CNN repository root, after setting the template base to the actual MBDD/GLH config:
 
 ```bash
-python tools/train.py configs/gpsf/strip_gpsf_3x.py \
+python tools/train.py configs/gpsf/strip_gpsf_3x.py
 ```
-
-Change the config and work directory for GLH as needed. This README documents the in-tree integration; the actual data paths and experiment settings remain defined by your dataset config.
-
